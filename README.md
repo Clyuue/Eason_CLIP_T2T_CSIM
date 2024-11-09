@@ -1,4 +1,4 @@
-# Eason文本相似度比較器
+# Jijison文本相似度比較器
 
 1. 此專案用於處理指定資料夾中的 `.md` 文件，對每行內容進行正則匹配與特徵提取，並生成包含處理結果的 `.txt` 文件。
 2. 基於 OpenAI 的 CLIP 模型對文本特徵進行相似度計算。
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 運行該腳本時，需要通過命令行指定輸入資料夾和輸出資料夾路徑。具體命令格式如下：
 
 ```bash
-python jison_md2txt.py <input_folder> <output_folder>
+python jijison_md2txt.py <input_folder> <output_folder>
 ```
 <input_folder>：包含 .md 文件的資料夾路徑。
 <output_folder>：處理後 .txt 文件的輸出路徑。
@@ -52,12 +52,12 @@ python clip_csim.py <input_folder> <compare_folder>
 假設您的輸入資料夾路徑為 ./generate，輸出資料夾路徑為 ./generate_txt，則命令如下：
 
 ```bash
-python jison_md2txt.py ./generate ./generate_txt
+python jijison_md2txt.py ./generate ./generate_txt
 ```
 假設您的輸入資料夾路徑為 ./original，輸出資料夾路徑為 ./original_txt，則命令如下：
 
 ```bash
-python jison_md2txt.py ./original ./original_txt
+python jijison_md2txt.py ./original ./original_txt
 ```
 輸出結果
 執行後，生成的 .txt 文件將保存在指定的輸出資料夾中，文件名格式為原 .md 文件名去除特定前綴後的識別碼。
