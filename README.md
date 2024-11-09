@@ -13,6 +13,9 @@
 
 在專案目錄下，執行以下命令以安裝所需的依賴：
 ```bash
+git clone https://github.com/Clyuue/Eason_CLIP_T2T_CSIM.git
+```
+```bash
 cd Eason_CLIP_T2T_CSIM
 ```
 ```bash
