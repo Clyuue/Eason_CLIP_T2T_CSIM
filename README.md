@@ -52,7 +52,7 @@ python clip_csim.py <input_folder> <compare_folder>
 假設您的輸入資料夾路徑為 ./generate，輸出資料夾路徑為 ./generate_txt，則命令如下：
 
 ```bash
-python beforeSD_yuri.py ./generate2 ./generate_txt
+python beforeSD_yuri.py ./generate ./generate_txt
 ```
 假設您的輸入資料夾路徑為 ./original，輸出資料夾路徑為 ./original_txt，則命令如下：
 
