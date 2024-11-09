@@ -40,8 +40,10 @@ python beforeSD_yuri.py <input_folder> <output_folder>
 運行該腳本時，需要通過命令行指定輸入資料夾和比較資料夾路徑。具體命令格式如下：
 
 ```bash
-python clip_csim.py ./generate_txt ./original_txt
+python clip_csim.py <input_folder> <compare_folder>
 ```
+<input_folder> :輸入資料夾
+<compare_folder>:比較資料夾
 
 ### 範例
 假設您的輸入資料夾路徑為 ./generate，輸出資料夾路徑為 ./generate_txt，則命令如下：
