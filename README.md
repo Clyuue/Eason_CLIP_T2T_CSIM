@@ -31,18 +31,19 @@ We offer the Voxceleb2 LP Dataset for download.
 [GDrive](https://drive.google.com/drive/folders/1kHeXm9hOPCsF1Jyh9hVTqvPagYvvf-w8?usp=sharing)
 
 # Training and Testing Lists 
-We provide the training and testing lists for MPIE-LP and Voxceleb2, as well as the testing list for Voxceleb1. You can use the following command to generate the lists:
+We provide the training and testing lists for MPIE-LP and Voxceleb2, as well as the testing list for Voxceleb1. You can download the input TXT files for generating these lists from the following link:
+[Input TXT Files](https://drive.google.com/drive/folders/13yte5HkvXfZvToAN0jebS304Lj009rzo?usp=sharing)
 
+You can then use the following command to generate the lists:
 ```
 python gen_list.py <Dataset Path> <Input TXT Path> <Format>
-
 ```
+
 ## Example
 For instance, to generate the list for MPIE:
 
 ```
 python gen_list.py /path/to/dataset mpie_cross_test_cvpr_full.txt mpie
-
 ```
 After execution, you will obtain the file mpie_cross_test_cvpr_full_output.txt containing the generated list. We provide MPIE and Vox2 cross and self training/testing list pairs, as well as Vox1 cross and self testing list pairs.
 
